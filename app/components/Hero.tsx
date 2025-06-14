@@ -30,14 +30,15 @@ const Hero: React.FC = () => {
       style={{ backgroundImage: "url('/image/image copy 2.png')" }}
     >
       {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-blue-900/70 z-0" />
+     <div className="absolute inset-0 bg-black/83 z-0" />
+
 
       <div className="container mx-auto px-4 md:px-6 py-16 md:py-24 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           {/* Left Content */}
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 animate-fade-in">
-              Transforming Your Digital<span className="text-blue-300">Land Scape</span>
+              Transforming Your Digital<span className="text-blue-300"> Land Scape</span>
             </h1>  
             <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-lg">
               We deliver innovative technology solutions that drive business growth and create exceptional user experiences.
